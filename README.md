@@ -1,5 +1,6 @@
 ## A Project to dive into these concepts:
-* Form Validation 
+
+* Form Validation
 * Types
 * Structures
 * Typescript
@@ -9,3 +10,4 @@
 * Component Composition
 * Observables
 * Services
+* Authentication
