@@ -2,7 +2,7 @@
 
 * Form Validation
 * Types
-* Structures
+* Data Structures
 * Typescript
 * Services
 * Error Handling
@@ -11,3 +11,4 @@
 * Observables
 * Services
 * Authentication
+* Tokens
