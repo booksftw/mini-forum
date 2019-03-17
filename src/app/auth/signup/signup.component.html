@@ -5,7 +5,7 @@
         <input
           matInput
           type="email"
-          name="title"
+          name="email"
           ngModel
           #emailInput = 'ngModel'
           placeholder="E-Mail"
@@ -14,7 +14,9 @@
         <mat-error *ngIf="emailInput.invalid">Please enter a valid email.</mat-error>
       </mat-form-field>
       <mat-form-field>
-        <input type="password" name="password"
+        <input
+          type="password"
+          name="password"
           ngModel
           #passwordInput = 'ngModel'
           matInput

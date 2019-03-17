@@ -12,7 +12,7 @@ export class SignupComponent {
   constructor(public authService: AuthService) {}
 
   onSignup(form: NgForm) {
-    console.log(form.value, 'client side');
+    console.log('sign up click', form.value)
 
     if (form.invalid) {
       return;

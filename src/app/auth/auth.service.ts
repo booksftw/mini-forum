@@ -13,10 +13,15 @@ export class AuthService {
 
   createUser(email: string, password: string) {
     const authData: AuthData = {email: email, password: password};
-    console.log('service ')
+    console.log('auth service ');
     this.http.post('http://localhost:3000/api/user/signup', authData)
       .subscribe(response => {
-        console.log(response);
-      })
+        console.log(response, 'res');
+      });
+    // this.http.get('http://localhost:3000/api/user/signup')
+    //   .subscribe(res => {
+    //     console.log(res);
+    //   } );
+
   }
 }
